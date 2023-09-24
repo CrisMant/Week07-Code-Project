@@ -1,0 +1,60 @@
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #960404, #f1c7c7, #ebb4b4, #bb0101);
+}
+
+body {
+    margin: 10rem 5rem;
+    
+    }
+    
+    h1 {
+        text-align: center;
+        filter:   drop-shadow(1px 1px 1px #00090e);
+      }
+      h2 {
+        margin: 4rem auto 1rem auto;
+        text-align: center;
+      }
+      img {
+        margin: 1rem;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+      }
+      figcaption {
+        text-align: bottom;
+        font-weight: bold;
+        color: rgb(0, 14, 15);
+      }
+
+      /* ---CUSTOM CLASS NAME SELECTORS--- */
+      
+      
+      .banner-div {
+        justify-content: left;
+        flex-wrap: wrap;
+
+      #banner-home {
+        max-width: 30%;
+        height: auto;
+      }
+      #banner-menu1 {
+        width: 230px;
+        display: block;
+      }
+      #banner-menu2 {
+        width: 230px;
+        display: block;
+      }
+      #banner-menu3 {
+        width: 230px;
+        display: block;
+      }
+      .img-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+    }
+      
+   
